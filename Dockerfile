@@ -1,5 +1,5 @@
-FROM alpine:latest
-
+#FROM alpine:latest
+FROM resin/raspberry-pi-alpine-python
 MAINTAINER Pablo Veron <pveron2001@gmail.com>
 RUN echo $CLOUD_USER
 ENV CLOUD_USER=${CLOUD_USER}
